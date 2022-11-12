@@ -1,0 +1,24 @@
+{
+  "name": "information-technology-it-will-be-pain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slides/PITCHME.md",
+  "scripts": {
+    "present": "cross-env PORT=5030 marp -s --theme slides/shcherbakov-custom-theme.css --html true --watch slides",
+    "build": "marp --theme slides/shcherbakov-custom-theme.css --html true slides/PITCHME.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaguny/information-technology-it-will-be-pain.git"
+  },
+  "author": "alexey.shcherbakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akaguny/information-technology-it-will-be-pain/issues"
+  },
+  "homepage": "https://github.com/akaguny/information-technology-it-will-be-pain#readme",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^2.2.2",
+    "cross-env": "^7.0.3"
+  }
+}

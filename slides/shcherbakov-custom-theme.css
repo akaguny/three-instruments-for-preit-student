@@ -1,0 +1,56 @@
+/* @theme shcherbakov-custom-theme */
+@import 'default';
+
+:root {
+  --slides-background: white;
+  --slides-width: 1280px;
+  --slides-height: 960px;
+  --header-height: 40px;
+}
+
+body {
+  background-color: var(--slides-background);
+}
+
+section {
+  font-size: 30px; 
+  padding: 10px !important;
+  justify-content: start;
+  margin: 0px;
+}
+
+section.cover {
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 35px;
+  color: aliceblue;
+  display: block;
+  background-color: teal;
+  height: var(--header-height);
+  padding: 2px;
+}
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  padding-left: 20px;
+}
+
+footer {
+  bottom: 5px;
+}
+
+.two-columns {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.two-columns > *:first-child img {
+  display: block;
+  max-height: calc(var(--slides-height) - var(--header-height) - 350px);
+}
