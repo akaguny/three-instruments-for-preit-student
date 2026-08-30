@@ -7,18 +7,12 @@
     "present": "cross-env PORT=5030 marp -s --theme slides/shcherbakov-custom-theme.css --html true --watch slides",
     "build": "marp --theme slides/shcherbakov-custom-theme.css --html true slides/PITCHME.md"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+"
-  },
+  "repository": {},
   "author": "alexey.shcherbakov",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
+  "bugs": {},
   "homepage": "",
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.2.2",
-    "cross-env": "^7.0.3"
+    "@marp-team/marp-cli": "^3.4.0"
   }
 }
