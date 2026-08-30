@@ -40,7 +40,6 @@ image: 'images/og-image.png'
     * наставник
 * ❤ 🍷 🏄‍♂️ 🍻 👩‍💻
 
-🙏 [telegramm](https://t.me/alexey_shcherbakov) | [linkedin](https://www.linkedin.com/in/shcherbakov/) | [GitHub](https://github.com/akaguny)
 </div>
 
 </div>
